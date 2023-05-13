@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Basic CSS</title>
+        <!-- internal style-->
+        <style>
+            *{
+                background-color: palegoldenrod;
+                margin:0;
+                font-family:'Courier New', Courier, monospace
+            }
+            .diff{
+                color:green;
+                border: 5px dotted chartreuse;
+            }
+            h1{
+                color:rebeccapurple;
+                text-align: center;
+                font-style: italic;
+                text-decoration: underline;
+                font-weight: 200;
+                font-size: 20px;
+            }
+            
+            .diff:hover{
+                color:red;
+            }
+            #heading{
+                color: royalblue;
+            }
+            .new{
+                line-height: 50px;
+                width: 500px;
+                height: 500px;
+                border: 2px dotted red;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <h1>Saturday</h1>
+        <h1 id="heading">HTML1</h1>
+        <h1 class="diff">HTML</h1>
+        <h2>Anything</h2>
+
+        <p class="new">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corporis, explicabo labore aperiam consequatur laborum mollitia repudiandae expedita dolores, saepe nobis doloribus! Eum nemo dolor, quia adipisci natus similique minus?
+        </p>
+
+        <div  class="new">
+            <p class="diff">Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+    </body>
+</html>
